@@ -1,17 +1,54 @@
-# personal_expense_tracker_app
+# Personal Expense Tracker
 
-Personal Expense Tracker App
+A Flutter-based mobile application that helps users record, organize,
+and manage their daily expenses using Indian Rupees (INR).
 
-## Getting Started
+## About the Project
 
-This project is a starting point for a Flutter application.
+Personal Expense Tracker is designed to make everyday expense tracking
+simple and convenient. Users can record expenses, categorize spending,
+and view their recorded expenses through a dashboard.
 
-A few resources to get you started if this is your first Flutter project:
+The application uses SQLite for local data storage.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Add new expenses.
+- Edit existing expenses.
+- Delete expenses with confirmation.
+- Categorize expenses.
+- View total recorded expenses.
+- View category-wise expense totals.
+- View recent transactions.
+- Store expense records locally using SQLite.
+- Display amounts in Indian Rupees (₹).
+- Responsive dashboard for phone and tablet screens.
+
+## Technologies Used
+
+- Flutter
+- Dart
+- SQLite
+- sqflite
+- Android Studio
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+personal_expense_tracker_app/
+├── android/
+├── lib/
+│   ├── database/
+│   │   └── database_helper.dart
+│   ├── models/
+│   │   └── expense.dart
+│   ├── screens/
+│   │   └── add_expense_screen.dart
+│   └── main.dart
+├── test/
+│   └── widget_test.dart
+├── pubspec.yaml
+├── pubspec.lock
+└── README.md
